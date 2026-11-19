@@ -1,0 +1,71 @@
+.users-page {
+  padding: 20px 0;
+}
+
+.user-avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: var(--primary-color);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.user-info-cell {
+  display: flex;
+  align-items: center;
+}
+
+.users-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.users-table th,
+.users-table td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+.users-table th {
+  background-color: #f8f9fa;
+  font-weight: 600;
+  color: var(--dark-color);
+}
+
+.users-table tr:hover {
+  background-color: #f8f9fa;
+}
+
+.role-badge {
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.role-admin {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.role-manager {
+  background-color: #d1ecf1;
+  color: #0c5460;
+}
+
+.role-editor {
+  background-color: #e2e3e5;
+  color: #383d41;
+}
+
+.role-viewer {
+  background-color: #f8d7da;
+  color: #721c24;
+}

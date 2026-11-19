@@ -1,0 +1,16 @@
+.bookings-page {
+  padding: 20px 0;
+}
+
+.status-select {
+  padding: 4px 8px;
+  border-radius: 4px;
+  border: 1px solid;
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.bookings-table td {
+  vertical-align: middle;
+}
